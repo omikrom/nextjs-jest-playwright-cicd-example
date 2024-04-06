@@ -41,7 +41,10 @@ We use playwright to test the functionality of the web application from a users 
 The web application must be running in a seperate console before running this command:
 ```bash
 npm run playwright
+# or
+npm run playwright:headed
 ```
+
 
 ## Learn More
 
