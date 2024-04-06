@@ -9,7 +9,9 @@
     "lint": "next lint",
     "format": "prettier --write 'app/**/*.{js,jsx,ts,tsx}'",
     "test": "jest unit_tests",
-    "test:watch": "jest --watch unit_tests"
+    "test:watch": "jest --watch unit_tests",
+    "playwright": "npx playwright test",
+    "playwright:headed": "npx playwright test --headed"
   },
   "dependencies": {
     "next": "14.1.4",
