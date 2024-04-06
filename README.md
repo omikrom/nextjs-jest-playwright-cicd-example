@@ -20,6 +20,29 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Prettier formatting
+
+Format the project using the following command:
+```bash
+npm run format
+```
+
+## Unit testing
+
+Run the Jest unit testing suite using the following command:
+
+```bash
+npm run test
+```
+
+## Spec testing
+
+We use playwright to test the functionality of the web application from a users perspective.
+The web application must be running in a seperate console before running this command:
+```bash
+npm run playwright
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
